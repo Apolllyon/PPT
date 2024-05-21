@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¡Piedra, papel o tijera!</title>
+    <link rel="stylesheet" href="archivos/PPT.css" />
+    <link rel="icon" href="../imagenes/final.png" />
+    <script src="https://kit.fontawesome.com/e354fa8157.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--titulo-->
+    <header>
+    <img id="logo" src="imagenes/final.png">
+    <h1>¡Piedra, Papel o tijera!</h1>
+    <i class="fa-regular fa-user" id="logoUser"></i>
+    </header>
+
+    <div id="texto1" class="diseño">
+      ¡ELige una Opcion!
+    </div>
+
+    <div id="texto2" class="diseño">
+      ¡Empate!
+    </div>
+
+    <div id="texto3" class="diseño">
+      ¡Ganastes!
+    </div>
+
+    <div id="texto4" class="diseño">
+      ¡Perdistes!
+    </div>
+
+
+    <!--Usuario Interfaz-->
+    <div id="interfaz">
+    <button id="Piedra" class="Boton">🪨 Piedra 🪨</button>
+    <button id="Papel" class="Boton">📜 Papel 📜</button>
+    <button id="Tijera" class="Boton">✂️ Tijera  ✂️</button>
+    </div>
+
+    <div id="juego">
+    <div id="usuario">
+    <p>Tú</p><br>
+    <div class="victorias">
+    <p>Victorias:</p>
+    <div id="tuVictorias">0</div>
+    </div>
+    <p id="si"></p>
+    </div>
+    <!--Boton Accion-->
+    <button id="batalla">⚔️</button>
+    <!--Ia interfaz-->
+    <div id="ia">
+    <p>IA</p><br>
+    <div class="victorias">
+    <p>Victorias: </p>
+    <div id="iaVictorias">0</div>
+    </div>
+    <p id="Ia"></p>
+    </div>
+</div>
+
+
+
+  <script src="archivos/PPT.js"></script>
+</html>

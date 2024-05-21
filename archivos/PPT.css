@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  justify-content: space-between;
+  display: flex;
+  background-color: #2f3237;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0px 5px 10px black;
+  border-radius: 0px 0px 10px 10px;
+  padding: 0px 15px 0px 15px;
+}
+h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 20px;
+}
+#logo {
+  border-radius: 0;
+  border: none;
+  width: 50px;
+  height: 55px;
+}
+#logo:hover {
+  opacity: 0.8;
+}
+#logoUser {
+  border: solid 3px black;
+  border-radius: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  display: flex;
+}
+body {
+  background-image: url("../imagenes/fondo+.png");
+  background-size: cover;
+    background-repeat: no-repeat;
+background-repeat: initial;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#interfaz {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 10px 0px;
+  display: flex;
+  gap: 30px;
+}
+.Boton {
+  font-size: 25px;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  padding: 2px;
+  transition: 0.5s;
+}
+button {
+  border-style: none;
+  background: none;
+  color: #fff;
+}
+.Boton:hover {
+  transform: scale(1.1);
+}
+#batalla:hover {
+  transform: scale(1.1);
+}
+
+#juego {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+img {
+  border-radius: 10px;
+  border: solid 2px black;
+}
+#batalla {
+  font-size: 100px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.victorias {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.diseño{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 84.5%;
+    border: 2px solid rgba(255, 253, 253, 0.459);
+    display: none;
+}
+@media (max-width: 768px) {
+
+img{
+    width: 240px;
+    height: 240px;
+}
+body{
+    background-size: 100% auto;
+}
+#batalla{
+font-size: 80px;
+}
+}
